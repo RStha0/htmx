@@ -3026,6 +3026,7 @@ return (function () {
             // behavior of anchors w/ empty href is to use the current URL
             if (path == null || path === "") {
                 path = getDocument().location.href.split('?')[0];
+                
             }
 
 
